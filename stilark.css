@@ -1,0 +1,151 @@
+h1 {
+  font-family: acumin-pro,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h4 {
+  font-family: acumin-pro-condensed,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h6 {
+  font-family: acumin-pro-extra-condensed,sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+body {
+  background-color: #81B29A;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+  background-color: #3D405B;
+  color: #F4F1DE;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10% 1fr 2fr 10%;
+      grid-template-columns: 10% 1fr 2fr 10%;
+}
+
+header .boks2 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .boks3 {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  font-family: acumin-pro-condensed,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+header .boks3 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  font-weight: bold;
+}
+
+header .boks3 a {
+  float: left;
+  background-color: #F2CC8F;
+  color: #E07A5F;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 1em;
+  line-height: 25px;
+  border-radius: 8px;
+  margin: 4px;
+  border-bottom: 5px solid #E07A5F;
+}
+
+header .boks3 a:hover {
+  background-color: #E07A5F;
+  color: #F2CC8F;
+  border-bottom: 5px solid #F2CC8F;
+}
+
+.bannerImage {
+  width: 100%;
+  overflow: hidden;
+  max-height: 600px;
+}
+
+section {
+  padding-top: 100px;
+  padding: 4px;
+  width: 80%;
+  margin: auto;
+  background-color: #F4F1DE;
+  color: #3D405B;
+}
+
+section table {
+  width: 40%;
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+
+section table th, section table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #3D405B;
+}
+
+section table th:hover, section table td:hover {
+  background-color: #F2CC8F;
+  color: #3D405B;
+}
+
+section table th {
+  background-color: #3D405B;
+  color: #F4F1DE;
+}
+
+section .boks6 {
+  background-color: #E07A5F;
+  position: relative;
+  padding: 12px;
+  right: 0;
+}
+
+section .boks6 h4 {
+  margin: 0;
+}
+
+.boks7 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  font-size: 1.5em;
+  height: 40px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=stilark.css.map */
